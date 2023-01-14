@@ -18,3 +18,6 @@
   * [사용자 및 권한](study/real-mysql/undefined-1/README.md)
     * [사용자](study/real-mysql/undefined-1/undefined.md)
     * [권한과 역할](study/real-mysql/undefined-1/undefined-1.md)
+* [도메인 주도 개발(DDD)](study/ddd/README.md)
+  * [동작하는 도메인 만들기](study/ddd/undefined/README.md)
+    * [지식 탐구](study/ddd/undefined/undefined.md)

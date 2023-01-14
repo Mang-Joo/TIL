@@ -81,3 +81,62 @@ CREATE ROLE
 ```
 {% endcode %}
 
+기본적으로 역할을 그 자체로 사용될 수 없고 계정에 부여해야 하므로 유저를 생성한 후 적용해보자.
+
+{% code title="유저 생성" lineNumbers="true" %}
+```sql
+CREATE USER reader@'127.0.0.1' IDENTIFIED BY 'qwerty';
+CREATE USER writer@'127.0.0.1' IDENTIFIED BY 'qwerty';
+```
+{% endcode %}
+
+이 계정에 역할을 부여하자.
+
+<pre class="language-sql" data-title="역할 적용" data-line-numbers><code class="lang-sql">GRANT role_emp_read TO reader@'127.0.0.1';
+<strong>GRANT role_emp_read, role_emp_write TO writer@'127.0.0.1';
+</strong></code></pre>
+
+실제로 역할은 부여되었지만, 계정의 활성화 된 역할을 조회해 보면 role\_emp\_read 역할이 없음이 나타날 것이다.
+
+역할을 사용할 수 있게 하려면 `SET ROLE` 명령어를 통해 실행하여 해당 역할을 활성화해야한다.
+
+{% code title="역할 활성화" %}
+```sql
+SET ROLE 'role_emp_read';
+```
+{% endcode %}
+
+이렇게 매 역할을 생성할 때 마다 역할을 설정해주기엔 귀찮은 일이다.\
+MySQL은 기본 설정을 비활성화로 해두었기 때문이다. `activate_all_roles_on_login` 시스템 변수로 설정 할 수 있다.
+
+{% code title="역할 생성 시 자동 활성화" %}
+```sql
+SET GLOBAL activate_all_roles_on_login=ON;
+```
+{% endcode %}
+
+### 역할과 사용자 계정
+
+기본적으로 역할과 사용자 계정은 같은걸로 나타난다.
+
+역할 호스트 부분에 아무것도 입력하지 않으면 다음과 같이 `'%" 가 자동으로 입력된다.`
+
+```sql
+CREATE ROLE
+    role_emp_read@'%',
+    role_emp_write@'%';
+```
+
+`호스트 부분을 작성하게 될 경우를 한번 보자`
+
+```sql
+CREATE ROLE role_emp_local_read@localhost;
+CREATE USER reader@'127.0.0.1' IDENTIFIED BY 'qwerty';
+GRANT SELECT ON employees.* TO role_emp_local_read@'localhost';
+GRANT rome_emp_local_read@'localhost' TO reader@'127.0.0.1';
+```
+
+역할을 다른 계정에 부여하지 않고, 직접 로그인하는 용도로 사용한다면 그때는 역할의 호스트 부분이 중요해진다.\
+즉, 역할을 사용자 계정처럼 사용했을 때 중요해진다.
+
+역할은 기본적으로 생성하면 `account_locked` 값이 `'Y'` 로 설정되어 있다.&#x20;
