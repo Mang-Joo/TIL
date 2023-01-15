@@ -21,3 +21,4 @@
 * [도메인 주도 개발(DDD)](study/ddd/README.md)
   * [동작하는 도메인 만들기](study/ddd/undefined/README.md)
     * [지식 탐구](study/ddd/undefined/undefined.md)
+    * [의사소통과 언어 사용](study/ddd/undefined/undefined-1.md)
