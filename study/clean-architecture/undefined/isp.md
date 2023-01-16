@@ -35,7 +35,7 @@ ISP를 사용하는 근본적인 동기를 보면, 잠재되어 있는 더 깊�
 &#x20;일반적으로, 필요 이상으로 많은 걸 포함하는 모듈에 의존하는 것은 해로운 일이다.\
 &#x20;예를들어 S 시스템 구축을 하는데 F라는 프레임워크를 의존하고 F라는 프레임워크는 D 데이터베이스를 반드시 사용하도록 만들었다고 가정하면 다음과 같은 그림이 나온다.
 
-<img src="../../../.gitbook/assets/file.drawing (2).svg" alt="1.3" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.drawing (2) (1).svg" alt="1.3" class="gitbook-drawing">
 
 F에서는 불필요한 기능, S와는 전혀 관계없는 기능이 D에 포함된다고 가정하였을 때, D가 수정되면 S까지 재배포를 해야하는 상황이 발생할 수 있다.
 

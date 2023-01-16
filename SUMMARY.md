@@ -20,6 +20,7 @@
     * [권한과 역할](study/real-mysql/undefined-1/undefined-1.md)
   * [아키텍처](study/real-mysql/undefined-2/README.md)
     * [MySQL 엔진 아키텍처](study/real-mysql/undefined-2/mysql.md)
+    * [MySQL 스레딩 구조](study/real-mysql/undefined-2/mysql-1.md)
 * [도메인 주도 개발(DDD)](study/ddd/README.md)
   * [동작하는 도메인 만들기](study/ddd/undefined/README.md)
     * [지식 탐구](study/ddd/undefined/undefined.md)

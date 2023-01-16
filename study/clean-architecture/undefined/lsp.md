@@ -15,7 +15,7 @@ S타입의 객체 `o1`과 T타입 객체 `o2`가 있고, T타입을 이용해서
 
 그림은 interface만 작성하였다.
 
-<img src="../../../.gitbook/assets/file.drawing (6).svg" alt="" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.drawing (2).svg" alt="" class="gitbook-drawing">
 
 서비스에서 `Repository`에 `save()` 추상 메서드가 있다고 가정해보자.\
 구현체에선 `save()`를 구현하게 될 것이고, 그것이 NOSQL이든 RDBMS든 상관 없이 Service에선 Repository의 `save()`를 호출했을 때의 행위는 변하지 않는다.

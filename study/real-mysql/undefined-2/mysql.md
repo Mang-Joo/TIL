@@ -1,3 +1,7 @@
+---
+description: InnoDB를 기준으로 작성
+---
+
 # MySQL 엔진 아키텍처
 
 MySQL의 전체적인 구조는 다음과 같다.
