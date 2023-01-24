@@ -15,7 +15,7 @@ InnoDB 스토리지 엔진에서 가장 핵심적인 부분이다.\
 * LRU 리스트: 엄밀하게 LRU와 MRU(Most Recently Used) 리스트가 결합된 형태라고 보면 된다.\
   &#x20;                  Old영역은 LRU에 해당하며, New영역은 MRU에 해당한다.
 
-<img src="../../../.gitbook/assets/file.excalidraw (1).svg" alt="LRU 리스트" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.excalidraw (1) (2).svg" alt="LRU 리스트" class="gitbook-drawing">
 
 해당 그림을 봤을 때 가장 먼저 떠오른건 GC이다.\
 GC와 같이 많이 사용하는 건 조금씩 Old 영역으로 이동하고, 많이 사용하지 않는 것은 점점 밀려 결국엔 삭제되는 구조이다.

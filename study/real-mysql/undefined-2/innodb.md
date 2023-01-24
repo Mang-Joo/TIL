@@ -25,7 +25,7 @@ InnoDB는 언두 로그를 이용해 이 기능을 구현한다.\
 
 다음 그림은 테이블에 한 건의 레코드를 INSERT 한 후 UPDATE 해서 발생하는 변경 작업 및 절차다.
 
-<img src="../../../.gitbook/assets/file.excalidraw.svg" alt="INSERT 상태" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.excalidraw (4).svg" alt="INSERT 상태" class="gitbook-drawing">
 
 <img src="../../../.gitbook/assets/file.excalidraw (3).svg" alt="UPDATE 상태" class="gitbook-drawing">
 
