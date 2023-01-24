@@ -3,7 +3,7 @@
 MySQL에서 사용되는 메모리 공간은 크게 글로벌 메모리 영역과 로컬 메모리 영역으로 구분된다.\
 글로벌 메모리 영역의 공간은 MySQL 서버가 시작되면서 운영체제로부터 할당된다.
 
-<img src="../../../.gitbook/assets/file.excalidraw (1).svg" alt="메모리 영역" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.excalidraw (1) (1).svg" alt="메모리 영역" class="gitbook-drawing">
 
 ## 글로벌 메모리 영역
 

@@ -25,6 +25,8 @@
     * [쿼리 실행 구조](study/real-mysql/undefined-2/undefined-1.md)
     * [스레드 풀](study/real-mysql/undefined-2/undefined-2.md)
     * [InnoDB 스토리지 엔진 아키텍처](study/real-mysql/undefined-2/innodb.md)
+    * [InnoDB 버퍼 풀(리두 로그)](study/real-mysql/undefined-2/innodb-1.md)
+    * [언두 로그](study/real-mysql/undefined-2/undefined-3.md)
 * [도메인 주도 개발(DDD)](study/ddd/README.md)
   * [동작하는 도메인 만들기](study/ddd/undefined/README.md)
     * [지식 탐구](study/ddd/undefined/undefined.md)
