@@ -41,3 +41,5 @@
     * [지식 탐구](study/ddd/undefined/undefined.md)
     * [의사소통과 언어 사용](study/ddd/undefined/undefined-1.md)
     * [모델과 구현의 연계](study/ddd/undefined/undefined-2.md)
+* [HTTP](study/http/README.md)
+  * [URI URL URN](study/http/uri-url-urn.md)
