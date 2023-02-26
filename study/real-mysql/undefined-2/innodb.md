@@ -27,7 +27,7 @@ InnoDB는 언두 로그를 이용해 이 기능을 구현한다.\
 
 <img src="../../../.gitbook/assets/file.excalidraw (4).svg" alt="INSERT 상태" class="gitbook-drawing">
 
-<img src="../../../.gitbook/assets/file.excalidraw (3).svg" alt="UPDATE 상태" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.excalidraw (3) (1).svg" alt="UPDATE 상태" class="gitbook-drawing">
 
 > 데이터 파일이 ???인 이유는 InnoDB 버퍼 풀의 변경 내용은 백그라운드 스레드에 의해서 기록되기 때문에 변경 내용이 언제 기록되는지는 알 수 없다.
 
