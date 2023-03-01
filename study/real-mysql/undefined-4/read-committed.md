@@ -5,7 +5,7 @@
 이 레벨에서는 `더티 리드` 같은 현상은 발생하지 않는다.\
 어떤 트랜잭션에서 데이터를 변경하더라도 **COMMIT이 완료된 데이터만 다른 트랜잭션에서 조회**할 수 있다.
 
-<img src="../../../.gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.excalidraw (2).svg" alt="" class="gitbook-drawing">
 
 예제와 같이 변경하더라도 언두 로그에 백업 되어 있는 데이터를 가져오게 된다.\
 여기서 최종적으로 `커밋`을 해야 변경된 데이터를 참조할 수 있게 된다.
