@@ -48,3 +48,7 @@
   * [프록시와 게이트웨이](study/http/undefined.md)
   * [다이제스트](study/http/undefined-1.md)
   * [HTTP HTTPS](study/http/http-https.md)
+
+## CS
+
+* [컴파일언어와 인터프리터 언어](cs/undefined.md)
