@@ -14,7 +14,7 @@ Spring Security는 기본적으로 스프링 프레임워크와 통합되어 있
 
 ### 아키텍처
 
-<img src="../../.gitbook/assets/file.excalidraw.svg" alt="로그인 아키텍처" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (3).svg" alt="로그인 아키텍처" class="gitbook-drawing">
 
 
 

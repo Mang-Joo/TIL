@@ -1,6 +1,6 @@
 # 쿼리 실행 구조
 
-<img src="../../../.gitbook/assets/file.excalidraw (2) (1).svg" alt="쿼리 실행 구조" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.excalidraw (2) (1) (1).svg" alt="쿼리 실행 구조" class="gitbook-drawing">
 
 ## 쿼리 파서
 
