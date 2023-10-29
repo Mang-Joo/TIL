@@ -60,6 +60,7 @@
     * [기본 개념](cs/undefined-1/cpu/undefined.md)
     * [스케줄링 기준(Scheduling Criteria)](cs/undefined-1/cpu/scheduling-criteria.md)
     * [스케줄링 알고리즘(Scheduling Algorithms)](cs/undefined-1/cpu/scheduling-algorithms.md)
+    * [스레드 스케줄링(Thread Scheduling)](cs/undefined-1/cpu/thread-scheduling.md)
 
 ## Spring
 
