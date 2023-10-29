@@ -55,7 +55,11 @@
 * [컴퓨터 구조](cs/undefined/README.md)
   * [컴파일언어와 인터프리터 언어](cs/undefined.md)
 * [운영체제(공룡책)](cs/undefined-1/README.md)
-  * [1. 서론](cs/undefined-1/1..md)
+  * [서론](cs/undefined-1/undefined.md)
+  * [CPU 스케줄링](cs/undefined-1/cpu/README.md)
+    * [기본 개념](cs/undefined-1/cpu/undefined.md)
+    * [스케줄링 기준(Scheduling Criteria)](cs/undefined-1/cpu/scheduling-criteria.md)
+    * [스케줄링 알고리즘(Scheduling Algorithms)](cs/undefined-1/cpu/scheduling-algorithms.md)
 
 ## Spring
 
