@@ -61,6 +61,10 @@
     * [스케줄링 기준(Scheduling Criteria)](cs/undefined-1/cpu/scheduling-criteria.md)
     * [스케줄링 알고리즘(Scheduling Algorithms)](cs/undefined-1/cpu/scheduling-algorithms.md)
     * [스레드 스케줄링(Thread Scheduling)](cs/undefined-1/cpu/thread-scheduling.md)
+  * [동기화](cs/undefined-1/undefined-1/README.md)
+    * [세마포어](cs/undefined-1/undefined-1/undefined.md)
+    * [Mutex 세마포어](cs/undefined-1/undefined-1/mutex.md)
+    * [Monitors](cs/undefined-1/undefined-1/monitors.md)
 
 ## Spring
 
