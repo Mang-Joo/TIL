@@ -65,6 +65,9 @@
     * [세마포어](cs/undefined-1/undefined-1/undefined.md)
     * [Mutex 세마포어](cs/undefined-1/undefined-1/mutex.md)
     * [Monitors](cs/undefined-1/undefined-1/monitors.md)
+  * [동기화 예제](cs/undefined-1/undefined-2/README.md)
+    * [유한 버퍼 문제](cs/undefined-1/undefined-2/undefined.md)
+    * [Readers-Writers 문제](cs/undefined-1/undefined-2/readers-writers.md)
 
 ## Spring
 
