@@ -68,6 +68,8 @@
   * [동기화 예제](cs/undefined-1/undefined-2/README.md)
     * [유한 버퍼 문제](cs/undefined-1/undefined-2/undefined.md)
     * [Readers-Writers 문제](cs/undefined-1/undefined-2/readers-writers.md)
+  * [Main Memory](cs/undefined-1/main-memory/README.md)
+    * [배경](cs/undefined-1/main-memory/undefined.md)
 
 ## Spring
 
