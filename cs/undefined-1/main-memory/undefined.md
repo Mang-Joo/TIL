@@ -31,3 +31,26 @@ CPU 이용률과 사용자에 제공하는 컴퓨터 응답속도를 모두 향�
 사용자 프로그램은 절대 **Physical Memory Address** 에 접근하지 않는다. 사용자 프로그램은 `int count`를 `123` 이라는 포인터를 생성해서 그것에 대한 일을 처리한다.
 
 그럼 MMU는 Relocation Register를 가지고 있는데 Relocation Register의 값이 `14000` 이라고 가정하면 MMU를 통해서 123이라는 Logical Address가 14123이라는 Physical Address로 접근시켜준다.
+
+
+
+### Dynamic Loading (동적 적재)
+
+Process가 실행되기 위해 미리 메모리에 올라와 있어야 한다. 하지만 이런 경우 프로세스의 크기가 메모리의 크기보다 커서는 안 된다. 그래서 메모리 공간을 더 효율적으로 이용하기 위해서 dynamic loading을 한다.
+
+메모리에 프로그램이 적재되지만 루틴이 실제로 호출되기 전까진 디스크에 머물러 있는다. 그러고 루틴을 호출하게 되면 루틴이 이미 메모리에 적재됐는지를 조사한다. 적재되어 있지 않다면 relocatable linking loader가 불려 루틴을 메모리로 가져오고 테이블에 기록한다.
+
+이 방법의 장점은 루틴이 필요한 경우에만 적재 된다는 것이다.
+
+### Dynamic Linking & Shared Libraries
+
+Dynamic Linking Library(DLL)은 프로그램이 실행될 때 사용자 프로그램에 연결되는 시스템 라이브러리이다.
+
+연결에는 Static Linking과 Dynamic Linking이 있다.
+
+Static Linking
+
+* 라이브러리가 이진 프로그램에 끼어 들어가게 된다.
+* 즉 컴파일 시점에 해당 라이브러리는 이미 포함되어 있다. Dynamic Linking
+* 이것은 Dynamic Loading과 비슷하게 Linking이 실행 시점까지 미뤄지는 것이다.
+* 예를 들면 libc 같은 것들이 있다.
