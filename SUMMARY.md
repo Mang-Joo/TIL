@@ -72,6 +72,7 @@
     * [Readers-Writers 문제](cs/undefined-1/undefined-2/readers-writers.md)
   * [Main Memory](cs/undefined-1/main-memory/README.md)
     * [배경](cs/undefined-1/main-memory/undefined.md)
+    * [Contiguous Memory Allocation(연속된 메모리 할당)](cs/undefined-1/main-memory/contiguous-memory-allocation.md)
 
 ## Spring
 
