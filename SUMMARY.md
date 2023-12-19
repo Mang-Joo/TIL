@@ -73,6 +73,7 @@
   * [Main Memory](cs/undefined-1/main-memory/README.md)
     * [배경](cs/undefined-1/main-memory/undefined.md)
     * [Contiguous Memory Allocation(연속된 메모리 할당)](cs/undefined-1/main-memory/contiguous-memory-allocation.md)
+    * [Paging(페이징)](cs/undefined-1/main-memory/paging.md)
 
 ## Spring
 
