@@ -16,7 +16,7 @@ Page Number는 Page Table을 액세스 할 때 사용한다.
 >
 > Page Table은 각 프로세스마다 하나의 Page Table을 가지게 된다. 이 Page Table엔 하나의 프로세스가 사용하는 Page들을 다 가지고 있다. 그래서 Logical Memory는 Table 안에 있는 Page를 바라보게 되고 Table을 통해서 Physical Memory에 할당한다.
 
-!\[\[Pasted image 20231218192312.png]]
+<figure><img src="../../../.gitbook/assets/Pasted image 20231218192312.png" alt=""><figcaption></figcaption></figure>
 
 위 그림과 같이 CPU는 Page Number(P)를 통해서 Page Table에 접근한다. 그럼 Page Table에서 가지고 있는 Frame Number를 찾게 되고, Offset은 그대로 사용하며 F, D의 조합이 생성된다. 그럼 이 F, D 조합을 통해서 Physical Memory에 접근할 수 있게 된다.
 
@@ -72,4 +72,4 @@ Paging의 장점은 공통의 코드르 **Share** 할 수 있다는 점이다.
 
 그래서 해당 코드를 여러 프로세스에서 같은 곳을 바라보게 만들어 공통 코드를 한 공간에만 올려 재사용 할 수 있다.
 
-!\[\[Pasted image 20231218222625.png]]
+<figure><img src="../../../.gitbook/assets/Pasted image 20231218222625.png" alt=""><figcaption></figcaption></figure>
